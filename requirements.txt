@@ -1,6 +1,6 @@
-tensorflow==2.14.0  
 streamlit
-opencv-python-headless  # Mejor que opencv-python para servidores
+tensorflow>=2.16.1
+numpy<2.0.0
+opencv-python-headless
 matplotlib
-pillow
-numpy
+Pillow

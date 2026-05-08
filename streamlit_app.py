@@ -10,7 +10,7 @@ st.markdown("Sube una imagen de un rostro y el modelo predecirá el género con 
 
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("/Users/hainermejia/models/model.keras")
+    return tf.keras.models.load_model("models/model.keras")
 
 model = load_model()
 
